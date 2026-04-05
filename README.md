@@ -30,9 +30,3 @@ I build AI systems that work in the real world — from agent reliability infras
 - 🏭 Founded PixelPro Studios at 16 with $500 → scaled to 100+ clients
 
 ---
-
-### 📊 GitHub stats
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=w3joe&layout=compact&theme=default&hide_border=true)
-
----
