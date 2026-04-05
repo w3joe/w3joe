@@ -1,8 +1,38 @@
-# Hi, I'm Wee Joe👋
+# Hi, I'm Joe 👋
 
-Welcome to my GitHub! I'm a developer passionate about solving real-world problems through AI, software engineering, and automation.
+CS @ UCL · Co-founder · Builder
 
-## 📊 GitHub Stats
+I build AI systems that work in the real world — from agent reliability infrastructure to automated UX research. Currently studying Computer Science at UCL while running two AI startups.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=w3joe&layout=compact&theme=default)
+---
 
+### 🚀 What I'm building
+
+| | |
+|---|---|
+| **[OnFlow](https://github.com/Onflow-AI)** | UX research via browser agents — automated SUS/SEQ scoring at scale |
+| **Sentrix** | Agent reliability engineering — guardrails and RCA for production AI |
+
+---
+
+### 🔨 Currently working on
+
+- Synthetic RCA training data pipeline for agent reliability (AWS RDS scenarios)
+- DepthReach — CLI prospect research + cold email tool with Gemini + Tavily
+- OpenFlo academic paper (HCI · browser agents · usability benchmarking)
+
+---
+
+### A few things
+
+- 🏆 Won NVIDIA GB10 Grace Blackwell Superchip at GTC 2026
+- ✈️ Won pitch at Stanford (ASES London) · Won UCL AI Festival hackathon
+- 🏭 Founded PixelPro Studios at 16 with $500 → scaled to 100+ clients
+
+---
+
+### 📊 GitHub stats
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=w3joe&layout=compact&theme=default&hide_border=true)
+
+---
