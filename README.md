@@ -2,7 +2,7 @@
 
 CS @ UCL · Co-founder · Builder
 
-I build AI systems that work in the real world — from agent reliability infrastructure to automated UX research. Currently studying Computer Science at UCL while running two AI startups.
+I build AI systems that work in the real world: from agent reliability infrastructure to automated UX research. Currently studying Computer Science at UCL.
 
 ---
 
