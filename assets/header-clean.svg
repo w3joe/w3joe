@@ -16,9 +16,7 @@
   </defs>
   <rect width="1200" height="260" rx="14" fill="url(#bg)"/>
   <rect x="790" width="410" height="260" rx="14" fill="url(#dots)"/>
-  <path d="M52 49H84" stroke="#bcb0ff" stroke-width="3"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-    <text x="99" y="54" fill="#c0b5ff" font-size="12" letter-spacing="3">CLOSER TO THE METAL</text>
     <text x="48" y="138" fill="#f4f1eb" font-size="68" font-weight="650" letter-spacing="-2.5">Tan Wee Joe</text>
     <text x="52" y="183" fill="#b8b7c9" font-size="23">Model internals. AI infrastructure. Reliable systems.</text>
     <text x="52" y="225" fill="#838397" font-size="12" letter-spacing="2">LONDON / UCL / REFRACTAL</text>
