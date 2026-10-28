@@ -1,4 +1,4 @@
-<img src="assets/header.svg" alt="Tan Wee Joe — Model internals, AI infrastructure, reliable systems" width="100%" />
+<img src="assets/header-infrastructure.svg" alt="Tan Wee Joe — Model internals, AI infrastructure, reliable systems" width="100%" />
 
 <p align="center">
   <b>Software Engineer @ Refractal · Computer Science @ UCL</b><br />
