@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Tan Wee Joe</title>
+  <desc id="desc">Understanding, building, and securing AI systems. A connected network on a dark blue background.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#101827"/>
+      <stop offset="1" stop-color="#192b40"/>
+    </linearGradient>
+    <linearGradient id="accent" x2="1">
+      <stop stop-color="#72e2c0"/>
+      <stop offset="1" stop-color="#9fb4ff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#afc5df" opacity=".12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="url(#background)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)"/>
+  <rect x="52" y="51" width="36" height="3" rx="1.5" fill="#72e2c0"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="101" y="57" fill="#a7b7ca" font-size="13" letter-spacing="3">UNDERSTAND / BUILD / SECURE</text>
+    <text x="48" y="135" fill="#f1f5fa" font-size="58" font-weight="700" letter-spacing="-2">Tan Wee Joe</text>
+    <text x="52" y="186" fill="#c3cfdd" font-size="25">AI systems, from internals to infrastructure.</text>
+    <text x="52" y="245" fill="#72e2c0" font-size="14" letter-spacing="2">AI SECURITY</text>
+    <circle cx="171" cy="240" r="2" fill="#60748d"/>
+    <text x="188" y="245" fill="#a8baff" font-size="14" letter-spacing="2">AGENT SYSTEMS</text>
+    <circle cx="342" cy="240" r="2" fill="#60748d"/>
+    <text x="359" y="245" fill="#c3cfdd" font-size="14" letter-spacing="2">INTERPRETABILITY</text>
+  </g>
+  <g fill="none" stroke="#526c8a" stroke-width="1.5" opacity=".65">
+    <path d="M855 76 967 150 855 224M855 76 1081 76 967 150 1081 224 855 224M967 150 1138 150M1081 76 1081 224M855 76 855 224"/>
+  </g>
+  <g fill="#192b40" stroke="url(#accent)" stroke-width="2">
+    <circle cx="855" cy="76" r="9"/>
+    <circle cx="855" cy="224" r="9"/>
+    <circle cx="1081" cy="76" r="9"/>
+    <circle cx="1081" cy="224" r="9"/>
+    <circle cx="1138" cy="150" r="6"/>
+  </g>
+  <circle cx="967" cy="150" r="32" fill="#72e2c0" opacity=".07"/>
+  <circle cx="967" cy="150" r="21" fill="#72e2c0" opacity=".1"/>
+  <circle cx="967" cy="150" r="10" fill="#72e2c0"/>
+</svg>
