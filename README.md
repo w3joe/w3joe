@@ -1,79 +1,50 @@
-<img src="assets/header.svg" alt="Tan Wee Joe — Understanding, building, and securing AI systems" width="100%" />
+<img src="assets/header.svg" alt="Tan Wee Joe — Model internals, AI infrastructure, reliable systems" width="100%" />
 
 <p align="center">
   <b>Software Engineer @ Refractal · Computer Science @ UCL</b><br />
-  <a href="https://tanweejoe.com">Website</a> ·
-  <a href="https://www.linkedin.com/in/tanweejoe">LinkedIn</a> ·
-  <a href="https://huggingface.co/w3joe">Hugging Face</a> ·
+  <a href="https://tanweejoe.com">Website</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/tanweejoe">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://huggingface.co/w3joe">Hugging Face</a> &nbsp;·&nbsp;
   <a href="mailto:tanweejoe@gmail.com">Email</a>
 </p>
 
-I build AI systems from model internals to production infrastructure. My work spans agent security, multi-agent coordination, evaluation pipelines, and the interfaces that make these systems usable. I'm especially interested in mechanistic interpretability, reinforcement learning, world models, and alignment.
+I'm interested in what happens underneath an AI application: how models compute, how inference runs, and how to make the surrounding systems reliable. I work across model internals, AI infrastructure, and agent security.
 
-## What I build
+### Technical focus
 
-| Area | Technical focus |
-| :--- | :--- |
-| **AI security & interpretability** | Prompt-injection detection, residual-stream analysis, activation steering, red teaming, runtime policy controls |
-| **Agents & evaluation** | Stateful tool-calling workflows, LangGraph orchestration, multi-agent coordination, browser automation, behavioural evaluation |
-| **Systems & product** | Python APIs, React / TypeScript interfaces, event streams, ETL, observability, SDK integrations, containerised deployments |
+**Model internals** — Residual-stream analysis, activation hooks, refusal-vector steering, and mechanistic interpretability.
 
-**Tools I work with:** Python · TypeScript · React · Next.js · FastAPI · LangGraph · Playwright · PyTorch · SQL · Docker
+**AI infrastructure** — GPU-backed model serving, streaming APIs, evaluation pipelines, observability, SDK integrations, and containerised services.
 
-## Currently building
+**Agent systems** — Stateful execution, tool orchestration, multi-agent coordination, runtime policy enforcement, and adversarial testing.
 
-**[Refractal](https://refractal-ai.com)** — AI security infrastructure: APIs and SDK integrations, runtime policy controls, agent evaluation, and auditable evidence pipelines, with Python services and React interfaces.
+<sub>Python · PyTorch · FastAPI · Modal · Docker · SQL · LangGraph · TypeScript · React</sub>
 
-**[Avenir-UX](https://github.com/Onflow-AI/Avenir-UX)** — Research on multimodal agents that simulate human web interaction to evaluate usability. Combines GUI grounding, persona-driven browser tasks, and structured UX metrics. Built at UCL Nexus Labs. **[Read the paper ↗](https://arxiv.org/abs/2604.09581)**
+### Building & research
 
-## Built at hackathons & competitions
+**[Refractal](https://refractal-ai.com)** — Building infrastructure for securing AI agents: runtime controls, evaluation, SDK integrations, and auditable execution.
 
-### [ReadMyMind](https://github.com/w3joe/readmymind)
+**[Hypercast 4D](https://github.com/w3joe/hypercast)** · *Research in progress*<br />
+Exploring hypercomplex neural networks for multivariate time-series forecasting: implementing quaternion and related algebraic layers in PyTorch, and studying their behaviour against real-valued baselines.
 
-**🥇 1st place · Cursor Cybersecurity Hackathon**
+**[Avenir-UX](https://github.com/Onflow-AI/Avenir-UX)** — Researching multimodal agents for simulated human web interaction and automated usability evaluation at UCL Nexus Labs. [Pre-print ↗](https://arxiv.org/abs/2604.09581)
 
-Detecting jailbreaks and prompt injections inside a model, then steering generation toward a policy-aligned refusal.
+### Hackathon wins
 
-- Layer-by-layer Jacobian Lens readouts from an abliterated Qwen3-8B, paired with refusal-vector steering in a live support-agent demo.
-- A 500-case evaluation suite measures detection quality, attack success before and after steering, and inference overhead.
+**[ReadMyMind](https://github.com/w3joe/readmymind)** — Detects prompt injections in a model's residual stream and steers generation toward refusal.<br />
+<sub>🥇 1st · Cursor Cybersecurity Hackathon</sub>
 
-`Python` `PyTorch` `Qwen3-8B` `FastAPI` `Modal` `React` `SSE`
+**Sentinel** — Decentralised agents negotiate satellite collision avoidance using live orbital data and ML risk classification.<br />
+<sub>🥇 Environment Track · NVIDIA GTC Hack for Impact · Dell GB10 prize</sub>
 
-### Sentinel
+**[Sentrix](https://github.com/w3joe/sentrix)** — A multi-agent surveillance and forensics system for detecting and investigating unsafe agent behaviour.<br />
+<sub>🥇 1st · AIEngine UCL BUILD AI Festival · NVIDIA GTC 2026 trip</sub><br />
+<sub>🏆 Winner · Stanford ASES London · Stanford ASES trip</sub>
 
-**🥇 Environment Track · NVIDIA GTC Hack for Impact → Won a Dell GB10**
-
-Decentralised agents negotiating satellite collision avoidance to reduce the risk of debris cascades.
-
-- Dual-path risk classification combines rule-based thresholds with XGBoost, taking the more conservative risk estimate.
-- Real-time features from CelesTrak conjunction data and NOAA space weather feeds inform agent negotiations.
-
-`Python` `XGBoost` `FastAPI` `Nemotron-30B`
-
-### [Sentrix](https://github.com/w3joe/sentrix)
-
-**🥇 1st place · AIEngine UCL BUILD AI Festival → Won a trip to NVIDIA GTC 2026**<br />
-**🏆 Winner · Stanford ASES London → Won a trip to Stanford ASES**
-
-An agentic police force for monitoring AI agents and investigating unsafe behaviour.
-
-- LangGraph patrol agents use pheromone-based attention and quorum voting to escalate suspicious activity into a forensic investigation workflow.
-- An ETL layer brings agent messages, emails, PRs, and documents into SQLite, with NetworkX for behavioural graph analysis.
-
-`Python` `LangGraph` `SQLite` `NetworkX` `FastAPI` `Next.js` `SSE`
-
-### [Onflow](https://github.com/Onflow-AI/Avenir-UX)
-
-**🥇 1st place · Bloomsbury Startup Academy Demo Day**<br />
-**🥈 2nd place · Gemini 3 London Hackathon**
-
-Multimodal agents that simulate real users and turn their navigation into actionable UI/UX feedback.
-
-- LangChain agents and Playwright drive browser simulations and visualise agent navigation.
-- GitHub API and Gemini CLI connect the feedback loop to generated code fixes; the research continues through [Avenir-UX](https://arxiv.org/abs/2604.09581).
-
-`Next.js` `LangChain` `Playwright` `GitHub API` `Gemini CLI`
+**[Onflow](https://github.com/Onflow-AI/Avenir-UX)** — Multimodal browser agents simulate real users and turn their navigation into UI/UX feedback.<br />
+<sub>🥇 1st · Bloomsbury Startup Academy Demo Day</sub><br />
+<sub>🥈 2nd · Gemini 3 London Hackathon</sub>
 
 ---
 
-Interested in AI security, interpretability, or agent systems? [Let's talk.](mailto:tanweejoe@gmail.com)
+<sub>Exploring mechanistic interpretability, reinforcement learning, world models, and alignment. Always up for a conversation about the systems behind AI.</sub>
