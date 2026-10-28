@@ -1,11 +1,7 @@
 <img src="assets/header-clean.svg" alt="Tan Wee Joe — Model internals, AI infrastructure, reliable systems" width="100%" />
 
 <p align="center">
-  <b>Software Engineer @ Refractal · Computer Science @ UCL</b><br />
-  <a href="https://tanweejoe.com">Website</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/tanweejoe">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://huggingface.co/w3joe">Hugging Face</a> &nbsp;·&nbsp;
-  <a href="mailto:tanweejoe@gmail.com">Email</a>
+  <b>Software Engineer @ Refractal · Computer Science @ UCL</b>
 </p>
 
 I'm interested in what happens underneath an AI application: how models compute, how inference runs, and how to make the surrounding systems reliable. I work across model internals, AI infrastructure, and agent security.
