@@ -10,6 +10,8 @@
 
 I'm interested in what happens underneath an AI application: how models compute, how inference runs, and how to make the surrounding systems reliable. I work across model internals, AI infrastructure, and agent security.
 
+**Open-source contributor** to [OpenSRE](https://github.com/Tracer-Cloud/opensre) and [PostHog](https://github.com/PostHog/posthog).
+
 ### Technical focus
 
 **Model internals** — Residual-stream analysis, activation hooks, refusal-vector steering, and mechanistic interpretability.
